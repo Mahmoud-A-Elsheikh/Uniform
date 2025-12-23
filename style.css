@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: auto;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.radio label {
+  display: block;
+  margin-top: 5px;
+}
+
+.warning {
+  background: #ffe0e0;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #900;
+}
+
+.hidden {
+  display: none;
+}
